@@ -1,0 +1,53 @@
+.work1{
+    background-color: blueviolet;
+    width: 850px;
+    padding-bottom: 30px;
+}
+
+.work2{
+    background-color: blueviolet;
+    width: 850px;
+    padding-bottom: 30px;
+}
+
+.image_box{
+    width: 300px;
+    height: 300px;
+    margin: 20px 0px 0px 20px;
+    background-color: white;
+    float:left;
+}
+
+.image_box2{
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 0px 0px;
+    background-color: white;
+    float:right;
+}
+
+.project_brief{
+    background-color: silver;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project_brief_text{
+    white-space: pre-wrap;
+    font-size: 15pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.project_description{
+    clear:both;
+    white-space: pre-wrap;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:justify;
+}

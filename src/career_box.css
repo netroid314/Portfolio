@@ -1,0 +1,41 @@
+.career_box{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_box{
+    background-color: white;
+    opacity: 50%;
+    width: 600px;
+}
+
+.period{
+    display: inline-block;
+    color: rgb(0, 119, 255);
+    font-size: 13pt;
+    white-space: pre-wrap;
+    text-align: left;
+    position: relative;
+    
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    width: 200px;
+}
+
+
+.done{
+    display: inline;
+    color: rgb(0, 119, 255);
+    font-size: 12;
+    white-space: pre-wrap;
+    text-align: left;
+
+    position: relative;
+    left: 50px;
+}
+

@@ -1,0 +1,22 @@
+.App2{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.intro{
+  padding-top: 30px;
+  color: rgb(0, 119, 255);
+  font-size: 15pt;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.box{
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
