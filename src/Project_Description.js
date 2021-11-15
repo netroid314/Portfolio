@@ -32,8 +32,8 @@ class Description extends Component {
       current_desc = project_desc_3
 
     return (<div className="App2">
-      <div className="home" onClick = {this.goback}>
-        <p className="intext">메인 화면으로</p>
+      <div className="goback" onClick = {this.goback}>
+        <p className="intext">뒤로가기</p>
       </div>
       <div className="desc_box">
         <p>{current_desc}</p>
@@ -41,10 +41,8 @@ class Description extends Component {
     </div>
     )
   };
-
  
   goback = ()=>{
-    console.log('back')
     this.props.history.goBack()
   }
 }

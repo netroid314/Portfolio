@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import App2 from './App2';
 import Description from './Project_Description'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Route, Link, Switch } from "react-router-dom";
-
 
 ReactDOM.render(
   <React.StrictMode>
